@@ -1,0 +1,31 @@
+[debug] [2024-05-29T11:12:06.700Z] : 
+[debug] [2024-05-29T11:12:06.701Z] : ----------------------------------------------------------------------
+[debug] [2024-05-29T11:12:06.701Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2024-05-29T11:12:06.701Z] : CLI Version:  1.17.5-beta.4
+[debug] [2024-05-29T11:12:06.701Z] : Platform:     darwin
+[debug] [2024-05-29T11:12:06.701Z] : Node Version: v20.6.0
+[debug] [2024-05-29T11:12:06.701Z] : Time:         Wed May 29 2024 16:42:06 GMT+0530 (India Standard Time)
+[debug] [2024-05-29T11:12:06.702Z] : ----------------------------------------------------------------------
+[debug] [2024-05-29T11:12:06.702Z] : 
+[debug] [2024-05-29T11:12:07.048Z] : > authorizing via signed-in user option
+[debug] [2024-05-29T11:12:07.048Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-05-29T11:12:07.053Z] : >>>> HTTP REQUEST : GET https://consoleqa2.catalyst.localzoho.com/baas/v1/project/6759000000009014 
+
+[debug] [2024-05-29T11:12:07.169Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 29 May 2024 11:12:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-29T11:12:07.171Z] : >>>> HTTP REQUEST : GET https://consoleqa2.catalyst.localzoho.com/baas/v1/project/6759000000009014/environment 
+
+[debug] [2024-05-29T11:12:07.223Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 29 May 2024 11:12:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-29T11:12:07.294Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2024-05-29T11:12:07.295Z] : No basic functions to add
+[info] [2024-05-29T11:12:07.295Z] : 
+[info] [2024-05-29T11:12:07.295Z] : Executing AppSail [PRESERVE] [AppSail] script in /Users/ranjitha-18338/Documents/node20supportTest/appsail-node/jeometry-application/appsail-nodejs
+[debug] [2024-05-29T11:12:07.295Z] : Executing command > npm install
+[info] [2024-05-29T11:12:07.295Z] : > npm install
+[info] [2024-05-29T11:12:08.154Z] : 
+[info] [2024-05-29T11:12:08.154Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2024-05-29T11:12:08.154Z] : ℹ AppSail: http://localhost:3001
+[info] [2024-05-29T11:12:08.154Z] : 
